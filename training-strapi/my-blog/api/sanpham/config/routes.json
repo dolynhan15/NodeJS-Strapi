@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sanphams",
+      "handler": "sanpham.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sanpham2",
+      "handler": "sanpham.find2",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sanphams/count",
+      "handler": "sanpham.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sanphams/:id",
+      "handler": "sanpham.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sanphams",
+      "handler": "sanpham.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sanphams/:id",
+      "handler": "sanpham.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sanphams/:id",
+      "handler": "sanpham.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
